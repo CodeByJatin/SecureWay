@@ -1,59 +1,47 @@
 # SecureWay
-SecureWay is a safety-first navigation platform designed to help users choose routes that prioritize safety over speed. It assists people traveling in unfamiliar areas by factoring environmental and contextual risk signals into route selection.
 
-Problem Statement
+SecureWay is a safety-first navigation platform designed to recommend routes that prioritize user safety over speed. It is built for people traveling in unfamiliar areas where reaching faster is less important than reaching safely.
 
-Most navigation apps optimize routes based only on time and distance.
-For many users—especially at night, in remote locations, or in new cities—this approach can lead them through unsafe or unfamiliar areas.
+## Problem
 
-Solution
+Most navigation applications optimize routes using only time and distance. This approach can lead users through unsafe, poorly lit, or unfamiliar areas—especially at night or in remote locations.
 
-SecureWay analyzes multiple route options and ranks them using safety-related factors instead of pure speed. The platform aims to reduce exposure to high-risk areas while still keeping routes practical.
+## Solution
 
-Key Features
+SecureWay evaluates multiple possible routes and ranks them using safety-focused signals instead of pure speed. The system applies weighted penalties to higher-risk areas and recommends a safer, balanced route.
 
-Safety-aware route scoring
+## Features
 
-Avoidance of high-risk zones using weighted penalties
+- Safety-aware route scoring  
+- Penalty-based risk evaluation instead of hard blocking  
+- Preference for populated, well-lit, and monitored areas  
+- Suitable for urban, semi-urban, and remote regions  
+- Designed for unfamiliar navigation scenarios  
 
-Preference for well-lit, populated, and monitored areas
+## Target Users
 
-Works for urban, semi-urban, and remote regions
+- Women travelers  
+- Students and working professionals  
+- Tourists and outstation visitors  
 
-Designed for unfamiliar and first-time navigation scenarios
+## How It Works
 
-Target Users
+1. User selects a start and end location  
+2. Multiple routes are fetched from a map service  
+3. Each route is analyzed using safety scoring logic  
+4. The safest practical route is recommended  
 
-Women traveling alone
+## Technology Stack
 
-Students and working professionals
+- Frontend: Web / Mobile Interface  
+- Backend: API-based routing service  
+- Maps & Routing: External map APIs  
+- Analytics: Safety scoring and zone evaluation engine  
 
-Tourists and outstation travelers
+## Project Status
 
-High-Level Architecture
+SecureWay is under active development with ongoing improvements to safety models and data sources.
 
-User selects source and destination
+## Vision
 
-Multiple routes are fetched from a map service
-
-Routes are analyzed using safety scoring logic
-
-The safest balanced route is recommended
-
-Technology Stack (Indicative)
-
-Frontend: Web / Mobile UI
-
-Backend: API-based routing service
-
-Maps & Routing: External map APIs
-
-Analytics: Safety scoring and zone evaluation engine
-
-Project Status
-
-SecureWay is an evolving project focused on refining safety metrics, data sources, and real-world usability.
-
-Vision
-
-To make navigation safer by default—especially where speed is not the only priority.
+To make safe navigation the default choice, especially in unfamiliar or high-risk environments.
